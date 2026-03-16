@@ -15,7 +15,20 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 
+Write a program to find a solution to a system of linear equations x-3y=0, 3x+y=10
+```
+import numpy as np
+A=[[1,-3],[3,1]]
+B=np.array([0,10])
+c = np.linalg.solve(A,B)
+print(c)
+
+```
 ## Output:
+```
+
+```
+
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
